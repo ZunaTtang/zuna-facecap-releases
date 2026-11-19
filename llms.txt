@@ -1,0 +1,40 @@
+# Zuna Facecap
+
+> Use your Android phone as a face tracker for Warudo, VSeeFace and VNyan. No iPhone needed. Video stays on the phone.
+
+Zuna Facecap is an Android app that turns the phone camera into a face tracker for VTuber PC apps.
+It sends 51 ARKit-style expression values plus head rotation and position over Wi-Fi using the
+iFacialMocap protocol (UDP port 49983), so Warudo, VSeeFace, VNyan and other apps that accept an
+iFacialMocap / iPhone tracker receive it as if it came from an iPhone. Apps that read the VMC protocol
+are also supported. Through these apps it drives the face and head only.
+
+- Requirements: Android 10+ (64-bit) · Phone and PC on the same Wi-Fi. Developed and tested on a Galaxy S24 Ultra (Android 16).
+- Privacy: video is analyzed on the phone and never recorded or uploaded; only tracking numbers go to the
+  user's own PC. No account, no ads, no analytics.
+- Features: Video stays on the phone; No account, no ads; Calibrated to your face; Front, back or ultra-wide; Works with the screen off; In 4 languages.
+- Languages: English, 한국어, 日本語, 简体中文.
+- Availability: Google Play internal test (by email request) and a test build APK on GitHub.
+- Zuna Studio: a Windows companion app, not publicly distributed, built per avatar on request (free
+  consultation). With it the same phone also drives shoulders, arms and fingers, plus a stream deck.
+- Contact: maxjang123@gmail.com
+
+## Pages
+
+- [Home](https://zunattang.github.io/zuna-facecap-releases/): what the app does, setup in 3 steps, requirements, Zuna Studio, FAQ
+- [User guide](https://zunattang.github.io/zuna-facecap-releases/guide/): install, connect to Warudo / VSeeFace / VNyan, calibration, settings, troubleshooting
+- [Privacy policy](https://zunattang.github.io/zuna-facecap-releases/privacy/)
+- [한국어](https://zunattang.github.io/zuna-facecap-releases/ko/) · [guide](https://zunattang.github.io/zuna-facecap-releases/ko/guide/)
+- [日本語](https://zunattang.github.io/zuna-facecap-releases/ja/) · [guide](https://zunattang.github.io/zuna-facecap-releases/ja/guide/)
+- [简体中文](https://zunattang.github.io/zuna-facecap-releases/zh-CN/) · [guide](https://zunattang.github.io/zuna-facecap-releases/zh-CN/guide/)
+
+## FAQ
+
+- **Do I need an iPhone or the iFacialMocap app?** No. Your PC app sees Zuna Facecap as iFacialMocap.
+- **Is my camera video sent anywhere?** No. Video stays on the phone. Only tracking numbers go to your PC.
+- **Does it need the internet?** No. It runs on your Wi-Fi. The internet is only used to check for updates.
+- **Does it track my body and hands in Warudo, VSeeFace or VNyan?** Face and head only. For arms and fingers, use Zuna Studio.
+- **Can I use the back camera?** Yes: Settings → Camera → Back or Back wide. Turn on the voice guide.
+- **Do I need Zuna Studio?** Not for Warudo, VSeeFace or VNyan. Studio adds more and is available on request.
+- **My PC app can't find the phone** Check that both are on the same Wi-Fi (not a guest network), the PC app is allowed on Private networks in Windows Firewall, VPN is off, and the phone address is current.
+- **Will my older phone work?** Yes, with Android 10+ and a 64-bit chip. It runs slower; turn off Upper body, Hands and 60 fps tracking.
+- **Is the APK safe? How do I update?** It's our signed test build. It installs as Zuna Facecap Dev, shows updates from GitHub in the app, and uninstalls like any app.

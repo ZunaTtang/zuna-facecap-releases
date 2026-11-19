@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zuna Facecap 使用指南</title>
+  <meta name="description" content="把安卓手机变成 Warudo、VSeeFace、VNyan 的面部追踪器。">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#191513">
+  <link rel="canonical" href="https://zunattang.github.io/zuna-facecap-releases/zh-CN/guide/">
+  <link rel="alternate" hreflang="en" href="https://zunattang.github.io/zuna-facecap-releases/guide/">
+  <link rel="alternate" hreflang="ko" href="https://zunattang.github.io/zuna-facecap-releases/ko/guide/">
+  <link rel="alternate" hreflang="ja" href="https://zunattang.github.io/zuna-facecap-releases/ja/guide/">
+  <link rel="alternate" hreflang="zh-CN" href="https://zunattang.github.io/zuna-facecap-releases/zh-CN/guide/">
+  <link rel="alternate" hreflang="x-default" href="https://zunattang.github.io/zuna-facecap-releases/guide/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Zuna Facecap">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:locale:alternate" content="en_US">
+  <meta property="og:locale:alternate" content="ko_KR">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta property="og:title" content="Zuna Facecap 使用指南">
+  <meta property="og:description" content="把安卓手机变成 Warudo、VSeeFace、VNyan 的面部追踪器。">
+  <meta property="og:url" content="https://zunattang.github.io/zuna-facecap-releases/zh-CN/guide/">
+  <meta property="og:image" content="https://zunattang.github.io/zuna-facecap-releases/assets/og-zh-CN.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="安卓手机就是面部追踪器">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Zuna Facecap 使用指南">
+  <meta name="twitter:description" content="把安卓手机变成 Warudo、VSeeFace、VNyan 的面部追踪器。">
+  <meta name="twitter:image" content="https://zunattang.github.io/zuna-facecap-releases/assets/og-zh-CN.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../../assets/favicon-32.png">
+  <link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="../../assets/site.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Zuna Facecap 使用指南","description":"把安卓手机变成 Warudo、VSeeFace、VNyan 的面部追踪器。","inLanguage":"zh-CN","url":"https://zunattang.github.io/zuna-facecap-releases/zh-CN/guide/","image":"https://zunattang.github.io/zuna-facecap-releases/assets/og-zh-CN.png","about":{"@id":"https://zunattang.github.io/zuna-facecap-releases/#app"},"articleSection":["1. 设备要求","2. 安装","3. 首次启动","4. 连接 Warudo、VSeeFace、VNyan","5. 校准","6. 设置说明","7. 用 Zuna Studio 做得更多","8. 故障排除","9. 常见问题","10. 报告问题与联系"],"publisher":{"@type":"Organization","name":"Zuna Facecap","url":"https://zunattang.github.io/zuna-facecap-releases/","email":"maxjang123@gmail.com"},"author":{"@type":"Organization","name":"Zuna Facecap","url":"https://zunattang.github.io/zuna-facecap-releases/","email":"maxjang123@gmail.com"}}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Zuna Facecap","item":"https://zunattang.github.io/zuna-facecap-releases/zh-CN/"},{"@type":"ListItem","position":2,"name":"使用指南","item":"https://zunattang.github.io/zuna-facecap-releases/zh-CN/guide/"}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">跳到正文</a>
+<header class="top"><div class="wrap">
+  <a class="brand" href="../../zh-CN/"><img src="../../assets/icon-64.png" alt="" width="32" height="32">Zuna Facecap</a>
+  
+  <div class="langs" aria-label="语言"><a href="../../guide/" hreflang="en" lang="en">EN</a><a href="../../ko/guide/" hreflang="ko" lang="ko">한국어</a><a href="../../ja/guide/" hreflang="ja" lang="ja">日本語</a><a href="../../zh-CN/guide/" hreflang="zh-CN" lang="zh-CN" aria-current="page">中文</a></div>
+</div></header>
+<main id="main" class="wrap guide">
+  <div class="guide-head">
+    <h1>Zuna Facecap 使用指南</h1>
+    <p class="lead">把安卓手机变成 Warudo、VSeeFace、VNyan 的面部追踪器。</p>
+  </div>
+  <div class="guide-layout">
+    <nav class="toc-side" aria-label="目录"><p class="toc-title">目录</p><ol><li><a href="#1-设备要求">1. 设备要求</a></li><li><a href="#2-安装">2. 安装</a></li><li><a href="#3-首次启动">3. 首次启动</a></li><li><a href="#4-连接-warudovseefacevnyan">4. 连接 Warudo、VSeeFace、VNyan</a></li><li><a href="#5-校准">5. 校准</a></li><li><a href="#6-设置说明">6. 设置说明</a></li><li><a href="#7-用-zuna-studio-做得更多">7. 用 Zuna Studio 做得更多</a></li><li><a href="#8-故障排除">8. 故障排除</a></li><li><a href="#9-常见问题">9. 常见问题</a></li><li><a href="#10-报告问题与联系">10. 报告问题与联系</a></li></ol></nav>
+    <article class="guide-body">
+      <details class="toc-mobile"><summary>目录</summary><ol><li><a href="#1-设备要求">1. 设备要求</a></li><li><a href="#2-安装">2. 安装</a></li><li><a href="#3-首次启动">3. 首次启动</a></li><li><a href="#4-连接-warudovseefacevnyan">4. 连接 Warudo、VSeeFace、VNyan</a></li><li><a href="#5-校准">5. 校准</a></li><li><a href="#6-设置说明">6. 设置说明</a></li><li><a href="#7-用-zuna-studio-做得更多">7. 用 Zuna Studio 做得更多</a></li><li><a href="#8-故障排除">8. 故障排除</a></li><li><a href="#9-常见问题">9. 常见问题</a></li><li><a href="#10-报告问题与联系">10. 报告问题与联系</a></li></ol></details>
+<p>Zuna Facecap 用手机摄像头读取你的表情和头部动作，通过 Wi-Fi 发送到支持 <b>iFacialMocap</b> 的电脑软件。iFacialMocap 是这些软件用于 iPhone 面部追踪的协议。不需要 iPhone。</p>
+<div class="callout note"><p><b>想用同一台手机驱动手臂、手指，还要直播控制台？</b> 请看 <a href="#7-用-zuna-studio-做得更多">用 Zuna Studio 做得更多</a>，申请即可使用。</p></div>
+<div class="callout tip"><p><b>简单流程：</b> 安装应用 → 允许摄像头 → 用支架把手机立在离脸约 40 cm 处 → 在电脑软件中选择 <i>iFacialMocap</i> 追踪，输入应用中显示的手机地址 → <b>开始追踪</b> → 校准一次。</p></div>
+<div class="table-wrap"><table><tbody><tr><td><b>支持的软件</b></td><td>Warudo、VSeeFace、VNyan 以及其他可接收 iFacialMocap／iPhone 追踪的软件。也支持通过 VMC 协议接收的软件（进阶）。</td></tr><tr><td><b>发送内容</b></td><td>ARKit 格式的 51 个表情数值＋头部旋转和位置，UDP 端口 <b>49983</b></td></tr><tr><td><b>隐私</b></td><td>视频只在手机上分析，不会录制或上传。只通过你自己的 Wi-Fi 把追踪数值发送到电脑。</td></tr><tr><td><b>语言</b></td><td>English、한국어、日本語、简体中文（设置 → 语言）</td></tr><tr><td><b>联系</b></td><td>maxjang123@gmail.com · 设置 → 帮助与联系</td></tr></tbody></table></div>
+<h2 id="1-设备要求">1. 设备要求</h2>
+<div class="table-wrap"><table><thead><tr><th scope="col"></th><th scope="col">最低</th><th scope="col">推荐</th></tr></thead><tbody><tr><td><b>Android</b></td><td>Android 10 及以上</td><td>Android 13 及以上</td></tr><tr><td><b>处理器</b></td><td>64 位（ARM64）。仅支持 32 位的手机无法安装。</td><td><b>2021 年前后及之后</b>上市的中端及以上芯片</td></tr><tr><td><b>内存</b></td><td>4 GB</td><td>6 GB 及以上</td></tr><tr><td><b>摄像头</b></td><td>前置或后置</td><td>前置；如需追踪上半身，可用后置广角（超广角）</td></tr><tr><td><b>网络</b></td><td>手机和电脑连接同一个 Wi-Fi／路由器</td><td>5 GHz Wi-Fi，电脑用有线或 5 GHz</td></tr><tr><td><b>其他</b></td><td>—</td><td>手机支架或三脚架，长时间直播时准备充电器</td></tr></tbody></table></div>
+<div class="callout tip"><p>在 <b>Galaxy S24 Ultra（Android 16）</b> 上开发和测试：60 fps 摄像头设置下，面部追踪约 40 fps。更老或入门级手机也能用，但追踪帧率较低。如果感觉慢，请关闭 <b>上半身</b>、<b>手</b> 和 <b>60 fps 追踪</b>。</p></div>
+<p>在应用的 <b>设置 → 帮助与联系 → 设备要求</b> 中可以查看本机的 Android 版本和内存，内存较小时会提示。</p>
+<details>
+<summary>为什么只支持 64 位？</summary>
+<p>面部、身体和手部模型基于 Google MediaPipe 运行。如果为老旧 32 位手机加入库文件，应用体积会翻倍以上，而且这类手机本身也难以流畅追踪。</p>
+</details>
+<h2 id="2-安装">2. 安装</h2>
+<ol><li>安装 <b>Zuna Facecap</b>（Google Play，或你收到的 APK）。</li><li>打开应用，入门指南会自动开始。</li></ol>
+<div class="callout warn"><p>直接安装 APK 时，Android 可能会要求允许浏览器或文件管理器安装应用。这是一次性的系统设置。</p></div>
+<h2 id="3-首次启动">3. 首次启动</h2>
+<p>首次打开会显示 5 步指南。可以 <b>跳过</b>，之后随时可在 <b>设置 → 帮助与联系 → 再次查看入门指南</b> 中重新打开。</p>
+<div class="shot-grid"><figure class="shot"><figcaption>1. 应用能做什么</figcaption><img src="../../guide/images/zh-CN/tutorial-1.jpg" alt="应用能做什么" loading="lazy"></figure><figure class="shot"><figcaption>2. 摄像头权限</figcaption><img src="../../guide/images/zh-CN/tutorial-2.jpg" alt="摄像头权限" loading="lazy"></figure><figure class="shot"><figcaption>3. 放好手机</figcaption><img src="../../guide/images/zh-CN/tutorial-3.jpg" alt="放好手机" loading="lazy"></figure></div>
+<div class="shot-grid"><figure class="shot"><figcaption>4. 连接电脑软件</figcaption><img src="../../guide/images/zh-CN/tutorial-4.jpg" alt="连接电脑软件" loading="lazy"></figure><figure class="shot"><figcaption>5. 开始追踪</figcaption><img src="../../guide/images/zh-CN/tutorial-5.jpg" alt="开始追踪" loading="lazy"></figure></div>
+<h3 id="放好手机">放好手机</h3>
+<ul><li>用 <b>支架或三脚架</b> 固定手机，避免晃动。</li><li>距离脸部 <b>30–50 cm</b>，大致与眼睛同高，正对着你。</li><li>光源放在 <b>前方</b>（台灯或显示器），不要在身后。</li><li>如果要追踪 <b>上半身或手</b>，把手机放到约 <b>1 m</b> 外，让肩膀进入画面。</li></ul>
+<div class="callout tip"><p>只有点击 <b>开始追踪</b> 时摄像头才会开启。首页会显示一个模仿你表情的角色；选择右上角的 <b>我的脸</b> 可以看到带追踪点的摄像头画面。</p></div>
+<figure class="shot"><img src="../../guide/images/zh-CN/home.jpg" alt="首页" loading="lazy"></figure>
+<h2 id="4-连接-warudovseefacevnyan">4. 连接 Warudo、VSeeFace、VNyan</h2>
+<p>让手机和电脑连接 <b>同一个 Wi-Fi</b>。在首页点击 <b>发送到</b>，确认已选择 <b>电脑应用（iFacialMocap）</b>（默认）。</p>
+<figure class="shot"><img src="../../guide/images/zh-CN/connect.jpg" alt="发送到" loading="lazy"></figure>
+<p>有两种连接方式，<b>任选其一</b> 即可。</p>
+<div class="table-wrap"><table><thead><tr><th scope="col"></th><th scope="col">方法 1 · 在电脑上输入手机地址</th><th scope="col">方法 2 · 在手机上输入电脑地址</th></tr></thead><tbody><tr><td><b>适用情况</b></td><td>电脑软件会要求输入手机的 IP 地址（VSeeFace、VNyan、Warudo）</td><td>电脑软件只等待接收，不要求输入地址</td></tr><tr><td><b>在哪里输入</b></td><td>电脑软件中</td><td>Zuna Facecap → 发送到 → <i>电脑地址</i></td></tr><tr><td><b>输入什么</b></td><td><b>这台手机</b> 下方的大号数字，例如 <code>192.168.0.178</code></td><td>电脑的 IPv4 地址，例如 <code>192.168.0.217</code></td></tr><tr><td><b>端口</b></td><td>49983（固定）</td><td>49983（固定）</td></tr></tbody></table></div>
+<figure class="shot"><img src="../../guide/images/zh-CN/connect-ways.jpg" alt="方法 1 和方法 2" loading="lazy"></figure>
+<div class="callout tip"><p>带 <b>?</b> 的项目点一下会显示简短说明。不确定某个设置时可以点开看看。</p></div>
+<figure class="shot"><img src="../../guide/images/zh-CN/tooltip.jpg" alt="? 说明示例" loading="lazy"></figure>
+<h3 id="warudo">Warudo</h3>
+<ol><li>在 Warudo 中打开角色的 <b>Setup</b>，面部追踪选择 <b>iFacialMocap</b>（<i>iPhone / iFacialMocap</i>）。</li><li>输入 Zuna Facecap 中显示的手机地址（<b>方法 1</b>）。如果 Warudo 不要求输入地址，就用 <b>方法 2</b>，在应用中输入电脑地址。</li><li>在手机上点击 <b>开始追踪</b>。</li></ol>
+<h3 id="vseeface">VSeeFace</h3>
+<ol><li>在 <b>General settings → iPhone/ARKit face tracking</b> 中开启 <b>iFacialMocap</b>（<i>Receive tracking data from iFacialMocap</i>）。</li><li>把 Zuna Facecap 中的手机地址填入 IP 栏并连接。</li><li>在手机上点击 <b>开始追踪</b>。如果只用手机追踪，请把 VSeeFace 的摄像头设为 <i>None</i>。</li></ol>
+<h3 id="vnyan">VNyan</h3>
+<ol><li>在 <b>Settings → Tracking → ARKit / iPhone tracking</b> 中选择 <b>iFacialMocap</b>。</li><li>输入 Zuna Facecap 中的手机地址并开始接收。</li><li>在手机上点击 <b>开始追踪</b>。</li></ol>
+<div class="callout warn"><p>菜单名称会因软件版本和语言而不同。找到“iFacialMocap”或“iPhone tracking”即可，步骤相同。</p></div>
+<details>
+<summary>如何查看电脑地址（方法 2）？</summary>
+<ol><li>按 <b>Win + R</b>，输入 <code>cmd</code> 并按 <b>回车</b>。</li><li>输入 <code>ipconfig</code> 并按 <b>回车</b>。</li><li>在正在使用的网卡（Wi-Fi 或以太网）下找到 <b>IPv4 地址</b>，例如 <code>192.168.0.217</code>。</li></ol>
+<p>这是家庭网络中的地址，不是公网地址。</p>
+</details>
+<details>
+<summary>其他 VMC 应用（进阶）</summary>
+<p>有些软件不是用 iFacialMocap，而是通过 <b>VMC 协议</b> 接收。在 <i>发送到</i> 中选择 <b>其他 VMC 应用</b>，输入接收端电脑的地址和端口（通常为 <code>39539</code>）。如果软件使用 <code>EyeBlinkLeft</code> 这样的 Perfect Sync 名称，请开启 <b>首字母大写的名称</b>。这种方式只发送面部和头部。</p>
+</details>
+<h2 id="5-校准">5. 校准</h2>
+<p>每个人的放松表情都不同，追踪器在放松时很少正好是 0，表情最大时也很少正好是 100。<b>表情校准</b> 会测量你的放松表情以及每种表情的幅度，让你闭嘴时形象也闭嘴，笑时笑得到位。</p>
+<figure class="shot"><img src="../../guide/images/zh-CN/calibrate.jpg" alt="表情校准" loading="lazy"></figure>
+<div class="table-wrap"><table><thead><tr><th scope="col"></th><th scope="col">所需时间</th><th scope="col">什么时候做</th></tr></thead><tbody><tr><td><b>完整校准</b></td><td>约 45 秒，8 种表情</td><td>第一次做一次</td></tr><tr><td><b>快速校准</b></td><td>4 秒，只测放松表情</td><td>移动手机或光线变化后</td></tr><tr><td><b>头部角度校准</b>（可选）</td><td>约 15 秒</td><td>手机在脸部下方或上方时</td></tr><tr><td><b>身体姿势</b>（可选）</td><td>4 秒</td><td>开启上半身、且手机放在侧面时</td></tr></tbody></table></div>
+<div class="callout tip"><p>校准按 <b>摄像头分别</b> 保存，并备份到 <code>Download/ZunaFacecap/zuna-facecap-calibration.json</code>。重新安装或换手机时，用 <b>读取校准</b> 即可，无需重新校准。</p></div>
+<h2 id="6-设置说明">6. 设置说明</h2>
+<figure class="shot"><img src="../../guide/images/zh-CN/settings.jpg" alt="设置" loading="lazy"></figure>
+<div class="table-wrap"><table><thead><tr><th scope="col">设置</th><th scope="col">作用</th><th scope="col">提示</th></tr></thead><tbody><tr><td><b>相机：前置／后置／后置广角</b></td><td>用哪个摄像头追踪</td><td>前置可以边看应用边用。后置通常更清晰。后置广角（超广角）身体倾斜时也不容易出画</td></tr><tr><td><b>校准语音引导</b></td><td>朗读校准步骤</td><td>用后置摄像头、看不到屏幕时</td></tr><tr><td><b>上半身</b></td><td>追踪肩膀和手臂</td><td>仅限 Zuna Studio。把手机放到约 1 m 外</td></tr><tr><td><b>手</b></td><td>追踪手指</td><td>仅限 Zuna Studio。帧率会略降</td></tr><tr><td><b>60 fps 追踪</b></td><td>更快的摄像头</td><td>更流畅，但发热和耗电更多</td></tr><tr><td><b>打开应用时开始追踪</b></td><td>不用再点开始</td><td>默认关闭</td></tr><tr><td><b>熄屏时继续追踪</b></td><td>熄屏后在后台继续追踪</td><td>运行期间会显示通知，请边充电边用</td></tr><tr><td><b>眨单眼修正</b></td><td>让眨单眼保持为眨单眼</td><td>默认开启</td></tr><tr><td><b>防止跳动</b></td><td>过滤头部或面部某一帧不可能的跳动</td><td>真正的快速动作会晚一帧（约 0.02 秒）传出</td></tr><tr><td><b>左右反转</b></td><td>交换左右</td><td>只在电脑软件中左右显示相反时使用</td></tr><tr><td><b>录制</b></td><td>把表情数值保存为 JSON（不含视频）</td><td>用于测试</td></tr><tr><td><b>诊断</b></td><td>fps、延迟、运行于（处理器）、电池、发热</td><td>感觉慢时先看这里</td></tr></tbody></table></div>
+<figure class="shot"><img src="../../guide/images/zh-CN/settings-tracking.jpg" alt="追踪设置" loading="lazy"></figure>
+<h2 id="7-用-zuna-studio-做得更多">7. 用 Zuna Studio 做得更多</h2>
+<p><b>Zuna Studio</b> 是专为 Zuna Facecap 打造的 Windows 配套软件。Warudo、VSeeFace、VNyan 的面部追踪不需要它。有了 Studio，<b>同一台手机</b> 可以驱动虚拟形象的更多部位，还能用手机掌控整场直播。</p>
+<div class="callout tip"><p><b>感兴趣吗？</b> Zuna Studio <b>按申请提供</b>。<a href="#如何获取-zuna-studio">咨询 Zuna Studio</a>，我们会通过邮件回复。</p></div>
+<h3 id="为什么选择-zuna-studio">为什么选择 Zuna Studio？</h3>
+<p>一台手机能传到电脑的内容：</p>
+<div class="table-wrap"><table><thead><tr><th scope="col"></th><th scope="col">手机 → Warudo / VSeeFace / VNyan</th><th scope="col">手机 → <b>Zuna Studio</b></th></tr></thead><tbody><tr><td>面部和头部</td><td><span class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span class="sr">✓</span></span></td><td><span class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span class="sr">✓</span></span></td></tr><tr><td>肩膀和手臂</td><td>—（需要另一个追踪设备）</td><td><span class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span class="sr">✓</span></span> 同一台手机</td></tr><tr><td>手指</td><td>—（需要另一个追踪设备）</td><td><span class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span class="sr">✓</span></span> 同一台手机</td></tr><tr><td>从电脑发起校准＋手机语音引导</td><td>—</td><td><span class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span class="sr">✓</span></span></td></tr><tr><td>手机或平板上的直播控制台</td><td>—</td><td><span class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span class="sr">✓</span></span></td></tr><tr><td>只有你的手机能驱动形象（注册本机）</td><td>—</td><td><span class="yes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span class="sr">✓</span></span></td></tr></tbody></table></div>
+<h3 id="studio-带来的功能">Studio 带来的功能</h3>
+<table>
+<tr><th> 追踪</th><th> 虚拟形象</th></tr>
+<tr><td>
+<ul><li>同一台手机的摄像头追踪上半身、手臂和手指，无需额外追踪设备</li><li>按虚拟形象体型适配的手臂动作</li><li>经过平滑处理，快速动作也能跟上且不跳动</li><li>从电脑快速校准（快捷键或控制台按钮）</li></ul>
+</td><td>
+<ul><li>通过摄像头识别的口型（a·i·u·e·o），以及麦克风唇形同步</li><li>表情快捷键和自动表情</li><li>会摆动的头发、耳朵和尾巴，可开关的服装道具</li><li>扔向虚拟形象会有反应的物品</li></ul>
+</td></tr>
+<tr><th> 直播</th><th> 安心</th></tr>
+<tr><td>
+<ul><li>透明背景直接输出到 OBS，镜头预设和背景</li><li>手机或平板上的 <b>控制台</b>：OBS 场景、直播与录制、保存回放、静音</li><li>按情境播放背景音乐，一键宏（场景＋音乐＋静音一次完成）</li><li>直接在手机上往控制台添加歌曲和图片</li></ul>
+</td><td>
+<ul><li>注册本机：同一 Wi-Fi 中的其他设备无法操控你的形象</li><li>新的控制台设备需要在电脑上用 4 位数字允许</li><li>视频不会离开手机，只发送追踪数值</li></ul>
+</td></tr>
+</table>
+<table>
+<tr>
+<td align="center"><img src="../../guide/images/deck.jpg" alt="手机上的控制台"><br><sub>手机上的控制台（控制台标签页）</sub></td>
+</tr>
+<tr>
+<td align="center"><img src="../../guide/images/zh-CN/studio-note.jpg" alt="应用内的 Zuna Studio 介绍"><br><sub>应用内：Studio 带来的功能和咨询按钮</sub></td>
+<td align="center"><img src="../../guide/images/deck-allow-on-pc.jpg" alt="在电脑上允许设备"><br><sub>首次需在电脑上允许手机（4 位数字，图为日文界面）</sub></td>
+</tr>
+</table>
+<h3 id="适合这些人">适合这些人</h3>
+<ul><li>不想再买追踪设备，也想让 <b>手臂和手</b> 动起来的 VTuber</li><li>想用身边的 <b>手机控制 OBS 和音乐</b> 的主播</li><li>寻找 <b>定制方案</b> 或合作的创作者和团队</li></ul>
+<h3 id="如何获取-zuna-studio">如何获取 Zuna Studio</h3>
+<div class="callout note"><p>Zuna Studio <b>没有公开发布</b>。联系我们后会通过邮件回复。</p></div>
+<ol><li>在应用中：<b>设置 → 帮助与联系 → 商务咨询</b>，或点 <b>咨询 Zuna Studio</b> 按钮（发送到页面、控制台标签页、设置）。会打开带简短模板的邮件应用。</li><li>或发送邮件：<b><a href="mailto:maxjang123@gmail.com?subject=%5BZuna%20Facecap%5D%20Zuna%20Studio%20%E4%BD%BF%E7%94%A8%E5%92%A8%E8%AF%A2">maxjang123@gmail.com</a></b></li></ol>
+<p>我们会为你打造 <b>专属于你的虚拟形象的 Zuna Studio</b>：把你的模型配置进 Studio（与追踪对应的表情、上半身和手指、镜头预设、控制台），以你专属的 Windows 应用交付。这是仅为你制作的版本，不会提供给其他人。</p>
+<h4 id="需要你提供的内容">需要你提供的内容</h4>
+<div class="table-wrap"><table><thead><tr><th scope="col"></th><th scope="col">需要什么</th><th scope="col">原因</th></tr></thead><tbody><tr><td><b>1. 虚拟形象文件</b></td><td>以下任意一种：<b>VRChat 形象</b> 的 Unity 工程或 <code>.unitypackage</code>（带材质和贴图的 Humanoid 预制体）· 带贴图的 <b>FBX</b>（Humanoid 骨骼）· <b>VRM</b> 文件（0.x 或 1.0）</td><td>形象会内置到应用中。Studio 通过 Humanoid 骨骼和形态键驱动</td></tr><tr><td><b>2. 形态键</b></td><td>模型中有哪些表情形态键：ARKit／Perfect Sync（最佳）、VRChat 口型（<code>vrc.v_aa</code>…）、VRM 或 MMD 表情，或者没有</td><td>会自动匹配。没有的话用眨眼、元音和下巴骨骼驱动</td></tr><tr><td><b>3. 着色器</b></td><td>使用的着色器及版本（例如 lilToon 2.x、Poiyomi）</td><td>Studio 运行在 Unity 6（URP）上。部分着色器需要兼容的版本才能保持相同外观</td></tr><tr><td><b>4. 授权</b></td><td>模型的使用条款或销售页面（例如 BOOTH），以及是否允许直播使用和修改</td><td>模型会放进应用中。我们只在授权允许的范围内制作</td></tr><tr><td><b>5. 其他</b>（可选）</td><td>表情和手势动画、服装切换和道具、物理骨骼（PhysBone 等）</td><td>用于表情快捷键、服装道具和摆动的头发。物理效果会尽量迁移</td></tr><tr><td><b>6. 使用环境</b></td><td>手机型号和 Android 版本 · Windows 10/11（64 位）、支持 DirectX 12 的显卡 · OBS Studio 和 Spout2 插件</td><td>Studio 通过 Spout2 向 OBS 发送透明背景画面</td></tr><tr><td><b>7. 直播配置</b>（可选）</td><td>OBS 场景名称、背景图片、按情境播放的背景音乐、喜欢的镜头构图</td><td>让控制台和舞台从第一天就能用</td></tr></tbody></table></div>
+<div class="callout tip"><p><b>请用下载链接发送文件</b>（Google Drive、Dropbox 等），不要用邮件附件。请勿发送密码。</p></div>
+<details>
+<summary>为什么不能直接把我的形象导入现成的应用？</summary>
+<p>FBX 和 VRChat 形象需要由 Unity 编辑器转换（材质、着色器、Humanoid 设置），做好的 Windows 应用本身做不到。所以我们会在 Unity 中准备好你的形象，再和 Studio 一起构建。可直接读取 VRM 文件的版本正在计划中，但目前还没有。</p>
+</details>
+<details>
+<summary>控制台如何连接</summary>
+<ol><li>在电脑上启动 Zuna Deck 或 Zuna Studio。</li><li>让手机和电脑连接同一个 Wi-Fi。</li><li>如果 Windows 防火墙询问，请允许 <b>专用网络</b>。</li><li>首次连接时电脑会显示 4 位数字，与手机上的一致就在电脑上允许。</li></ol>
+<p>平板或另一台手机也可以用浏览器打开同一个控制台。</p>
+</details>
+<h2 id="8-故障排除">8. 故障排除</h2>
+<div class="callout tip"><p>先检查：首页的 <b>追踪中</b> 是否为绿色，<b>发送到</b> 是否显示 <i>正在发送</i>。</p></div>
+<details>
+<summary>虚拟形象完全不动</summary>
+<ul><li>手机和电脑是否在 <b>同一个 Wi-Fi</b>？访客网络和部分 Mesh 路由器会阻止设备互相访问。</li><li>是否在手机上点了 <b>开始追踪</b>？</li><li><b>方法 1：</b> 电脑软件中输入的数字是否与 <i>这台手机</i> 下的数字完全一致？手机重新连接 Wi-Fi 后可能会变。</li><li><b>方法 2：</b> 电脑地址是否正确？（<code>ipconfig</code> → IPv4）</li><li><b>Windows 防火墙：</b> 电脑软件需要在 <b>专用网络</b> 中被允许。也请确认 Windows 把当前 Wi-Fi 设为 <i>专用</i> 网络。</li><li>手机或电脑是否开着 <b>VPN</b>？关闭后再试。</li><li><b>Android 17：</b> 应用询问时请允许 <b>附近的设备</b>（设置 → 应用 → Zuna Facecap → 权限）。</li></ul>
+</details>
+<details>
+<summary>显示“未检测到脸”或经常丢失面部</summary>
+<ul><li>把前方的光线调亮。房间太暗是最常见的原因。</li><li>让手机在 30–50 cm 处正对着脸。</li><li>换一个摄像头试试（设置 → 相机）。</li></ul>
+</details>
+<details>
+<summary>嘴巴一直微张，或表情不明显</summary>
+<p>请做一次 <b>完整校准</b>。移动过手机或光线变化后，做 <b>快速校准</b>。如果手机在脸部下方，也试试 <b>头部角度校准</b>。</p>
+</details>
+<details>
+<summary>左右反了</summary>
+<p>开启 <b>设置 → 表情细节 → 左右反转</b>。通常 <i>Left</i> 指你自己的左边。</p>
+</details>
+<details>
+<summary>追踪很慢或手机发烫</summary>
+<ul><li>关闭 <b>上半身</b>、<b>手</b> 和 <b>60 fps 追踪</b>。</li><li>取下厚手机壳，避免阳光直射。</li><li>在 <b>设置 → 诊断</b> 中查看 <i>运行于</i>（通常 GPU 更快）和 <i>发热</i>。</li></ul>
+</details>
+<details>
+<summary>切换到其他应用或熄屏后追踪停止</summary>
+<p>开启 <b>设置 → 熄屏时继续追踪</b>。如果手机会结束后台应用，请把 Zuna Facecap 从电池优化中排除。</p>
+</details>
+<h2 id="9-常见问题">9. 常见问题</h2>
+<details>
+<summary>需要 iPhone 或 iFacialMocap 应用吗？</summary>
+<p>不需要。Zuna Facecap 在安卓上用相同的协议发送，电脑软件会把它识别为 iFacialMocap。</p>
+</details>
+<details>
+<summary>摄像头视频会被发送到别处吗？</summary>
+<p>不会。视频只在手机上分析，不会录制或上传。只发送追踪数值，而且只发送到你连接的电脑。</p>
+</details>
+<details>
+<summary>需要联网吗？</summary>
+<p>不需要。追踪只在家庭 Wi-Fi 内传输。联网只用于检查应用更新。</p>
+</details>
+<details>
+<summary>在 Warudo、VSeeFace、VNyan 中身体和手也会动吗？</summary>
+<p>这些软件通过 iFacialMocap 接收 <b>面部和头部</b>。如果想用同一台手机追踪上半身和手指，请使用 <a href="#7-用-zuna-studio-做得更多">Zuna Studio</a>。</p>
+</details>
+<details>
+<summary>可以用后置摄像头吗？</summary>
+<p>可以。设置 → 相机 → 后置 或 后置广角。请开启语音引导，这样看不到屏幕也能校准。</p>
+</details>
+<details>
+<summary>一定要用 Zuna Studio 吗？</summary>
+<p>Warudo、VSeeFace、VNyan 不需要。Studio 能让同一台手机做得更多：上半身和手指、直播控制台、口型与唇形同步、道具，以及从电脑发起校准。申请即可使用：<a href="#如何获取-zuna-studio">如何获取 Zuna Studio</a>。</p>
+</details>
+<h2 id="10-报告问题与联系">10. 报告问题与联系</h2>
+<p><b>设置 → 帮助与联系</b> 中有两个按钮：</p>
+<div class="table-wrap"><table><thead><tr><th scope="col">按钮</th><th scope="col">打开</th><th scope="col">自动填写的内容</th></tr></thead><tbody><tr><td><b>报告问题</b></td><td>邮件应用</td><td>标题含应用版本和手机型号；正文含设备、Android 版本、应用版本（versionCode）和语言。只需写下发生了什么。</td></tr><tr><td><b>商务咨询</b></td><td>邮件应用</td><td>用于 Zuna Studio 使用、合作、联名的标题和简短模板</td></tr></tbody></table></div>
+<p>如果没有邮件应用，会显示邮箱地址和 <b>复制地址</b> 按钮。</p>
+<figure class="shot"><img src="../../guide/images/zh-CN/help.jpg" alt="帮助与联系" loading="lazy"></figure>
+<p><b>maxjang123@gmail.com</b></p>
+    </article>
+  </div>
+</main>
+<footer><div class="wrap">
+  <div class="links">
+    <a href="../../zh-CN/guide/">使用指南</a>
+    <a href="../../privacy/">隐私政策（英文）</a>
+    <a href="mailto:maxjang123@gmail.com">联系: maxjang123@gmail.com</a>
+  </div>
+  <p class="tm">Warudo、VSeeFace、VNyan、iFacialMocap、VRChat 和 OBS 是其各自所有者的商标。Zuna Facecap 与它们没有关联，也未获得其认可。</p>
+  <p class="tm">© 2026 Zuna Facecap</p>
+</div></footer>
+</body>
+</html>
